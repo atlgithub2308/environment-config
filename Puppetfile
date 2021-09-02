@@ -17,36 +17,36 @@ forge 'https://forge.puppet.com'
 #  branch: 'docs_experiment'
 
  mod 'tomcat',
-   git:    'https://github.com/atlpersonal/tomcat.git',
+   git:    'https://github.com/atlgithub2308/tomcat.git',
    branch: 'production'
 
  mod 'java',
-   git:    'https://github.com/atlpersonal/java.git',
+   git:    'https://github.com/atlgithub2308/java.git',
    branch: 'production'
 
  mod 'ntp',
-   git:    'https://github.com/atlpersonal/ntp.git',
+   git:    'https://github.com/atlgithub2308/ntp.git',
    branch: 'production'
 
  mod 'stdlib',
-   git:    'https://github.com/atlpersonal/stdlib.git',
+   git:    'https://github.com/atlgithub2308/stdlib.git',
    branch: 'production'
 
  mod 'roles',
-   git:    'https://github.com/atlpersonal/roles.git',
+   git:    'https://github.com/atlgithub2308/roles.git',
    branch: 'production'
 
  mod 'profiles',
-   git:    'https://github.com/atlpersonal/profiles.git',
+   git:    'https://github.com/atlgithub2308/profiles.git',
    branch: 'production'
 
  mod 'hieradata-nodes',
-   git:    'https://github.com/atlpersonal/hieradata-nodes.git',
+   git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
    branch: 'production',
    install_path: 'hieradata'
  
  mod 'motd',
-   git:    'https://github.com/atlpersonal/motd.git',
+   git:    'https://github.com/atlgithub2308/motd.git',
    branch: 'production'
 
  #mod 'puppetlabs-docker', '4.1.0'
