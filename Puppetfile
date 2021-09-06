@@ -16,7 +16,7 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
- mod 'puppetlabs/inifile', 'latest'
+ mod 'puppetlabs/inifile', '5.2.0'
 
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
