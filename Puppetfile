@@ -18,6 +18,8 @@ forge 'https://forge.puppet.com'
 
  mod 'puppetlabs/inifile', '5.2.0'
 
+ mod 'puppet/chrony', '2.0.0'
+
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
    branch: 'production'
