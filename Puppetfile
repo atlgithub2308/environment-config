@@ -55,6 +55,10 @@ forge 'https://forge.puppet.com'
 
 mod 'puppet-autosign',
    git:    'https://github.com/atlgithub2308/puppet-autosign.git',
-   branch: 'production'   
+   branch: 'production'
+
+mod 'winservice',
+   git:    'https://github.com/atlgithub2308/winservice.git',
+   branch: 'production'
 
  #mod 'puppetlabs-docker', '4.1.0'
