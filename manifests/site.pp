@@ -29,6 +29,7 @@ node default {
   # Example:
   #   class { 'my_class': }
   # include java::install
+  notify { " Node ${fqnd} has no node definition": }
 }
 
 node 'pemaster.atldemo.com' {
