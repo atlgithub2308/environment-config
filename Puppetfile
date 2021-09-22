@@ -24,10 +24,6 @@ forge 'https://forge.puppet.com'
 
  mod 'puppet/chrony', '2.0.0'
 
- mod 'puppet_amazon_ssm_agent',
-   git:    'https://github.com/atlgithub2308/puppet_amazon_ssm_agent.git',
-   branch: 'production'
-
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
    branch: 'production'
