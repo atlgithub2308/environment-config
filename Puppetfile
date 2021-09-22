@@ -18,6 +18,8 @@ forge 'https://forge.puppet.com'
 
  mod 'puppetlabs/inifile', '5.2.0'
 
+ mod 'puppet-archive', '6.0.1'
+
  mod 'shinesolutions-amazon_ssm_agent', '1.0.0'
 
  mod 'puppet/chrony', '2.0.0'
