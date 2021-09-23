@@ -24,7 +24,7 @@ forge 'https://forge.puppet.com'
 
  mod 'puppet/chrony', '2.0.0'
 
- mod 'tomcat',
+ mod 'amazonssmagent',
    git:    'https://github.com/atlgithub2308/amazonssmagent.git',
    branch: 'production'
 
