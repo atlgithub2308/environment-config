@@ -14,15 +14,15 @@ forge 'https://forge.puppet.com'
 
 #mod CD4PE
 
- mod 'puppetlabs-cd4pe', '2.0.2'
+#mod 'puppetlabs-cd4pe', '2.0.2'
 #mod 'puppetlabs-stdlib', '7.1.0'
- mod 'puppetlabs-puppet_authorization', '0.5.1'
- mod 'puppetlabs-hocon', '1.1.0'
- mod 'puppetlabs-concat', '7.0.2'
- mod 'puppetlabs-docker', '4.0.1'
- mod 'puppetlabs-apt', '8.0.2'
- mod 'puppetlabs-translate', '2.2.0'
- mod 'puppetlabs-cd4pe_jobs', '1.5.0'
+# mod 'puppetlabs-puppet_authorization', '0.5.1'
+# mod 'puppetlabs-hocon', '1.1.0'
+# mod 'puppetlabs-concat', '7.0.2'
+# mod 'puppetlabs-docker', '4.0.1'
+# mod 'puppetlabs-apt', '8.0.2'
+# mod 'puppetlabs-translate', '2.2.0'
+# mod 'puppetlabs-cd4pe_jobs', '1.5.0'
 
  mod 'puppetlabs/inifile', '5.2.0'
 
