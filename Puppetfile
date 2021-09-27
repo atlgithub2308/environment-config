@@ -15,7 +15,7 @@ forge 'https://forge.puppet.com'
 #mod CD4PE
 
  mod 'puppetlabs-cd4pe', '2.0.2'
- mod 'puppetlabs-stdlib', '7.1.0'
+#mod 'puppetlabs-stdlib', '7.1.0'
  mod 'puppetlabs-puppet_authorization', '0.5.1'
  mod 'puppetlabs-hocon', '1.1.0'
  mod 'puppetlabs-concat', '7.0.2'
