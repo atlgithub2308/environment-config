@@ -60,6 +60,10 @@ node 'node1redhat.atldemo.com' {
   lookup('role').include
 }
 
+node 'node3debian.atldemo.com' {
+  lookup('role').include
+}
+
 node 'node2windows.atldemo.com' {
   include winservice
 }
