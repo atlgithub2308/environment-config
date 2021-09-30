@@ -32,6 +32,11 @@ forge 'https://forge.puppet.com'
 
  mod 'puppet/chrony', '2.0.0'
 
+ mod 'simp-simplib', '4.10.1'
+ mod 'herculesteam-augeasproviders_core', '3.1.0'
+ mod 'herculesteam-augeasproviders_ssh', '4.0.0'
+ mod 'simp-ssh', '6.12.0'
+
  mod 'amazonssmagent',
    git:    'https://github.com/atlgithub2308/amazonssmagent.git',
    branch: 'production'
