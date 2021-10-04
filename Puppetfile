@@ -39,9 +39,9 @@ mod 'puppetlabs-cd4pe_jobs', '1.5.0'
  mod 'herculesteam-augeasproviders_ssh', '4.0.0'
  mod 'simp-ssh', '6.12.0'
 
- #mod 'amazonssmagent',
-  # git:    'https://github.com/atlgithub2308/amazonssmagent.git',
-   #branch: 'production'
+ mod 'amazonssmagent',
+   git:    'https://github.com/atlgithub2308/amazonssmagent.git',
+   branch: 'production'
 
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
