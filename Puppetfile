@@ -20,7 +20,7 @@ mod 'puppetlabs-puppet_authorization', '0.5.1'
 mod 'puppetlabs-hocon', '1.1.0'
 mod 'puppetlabs-concat', '7.0.2'
 # mod 'puppetlabs-docker', '4.0.1'
-mod 'puppetlabs-apt', '8.1.2'
+mod 'puppetlabs-apt', '8.2.0'
 mod 'puppetlabs-translate', '2.2.0'
 mod 'puppetlabs-cd4pe_jobs', '1.5.0'
 
