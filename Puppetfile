@@ -13,6 +13,7 @@ forge 'https://forge.puppet.com'
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
 #mod CD4PE
+mod 'saz-sudo', '7.0.2'
 mod 'puppetlabs-powershell', '5.0.0'
 mod 'puppetlabs-docker', '4.1.2'
 mod 'puppetlabs-cd4pe', '3.2.1'
