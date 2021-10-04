@@ -72,13 +72,13 @@ mod 'puppetlabs-cd4pe_jobs', '1.5.0'
    branch: 'production',
    install_path: 'hieradata'
  
- #mod 'motd',
-  # git:    'https://github.com/atlgithub2308/motd.git',
-  # branch: 'production'
-
-mod 'puppet-autosign',
-   git:    'https://github.com/atlgithub2308/puppet-autosign.git',
+ mod 'motd',
+   git:    'https://github.com/atlgithub2308/motd.git',
    branch: 'production'
+
+#mod 'puppet-autosign',
+  # git:    'https://github.com/atlgithub2308/puppet-autosign.git',
+  # branch: 'production'
 
 mod 'winservice',
    git:    'https://github.com/atlgithub2308/winservice.git',
