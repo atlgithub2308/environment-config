@@ -43,9 +43,9 @@ mod 'puppetlabs-cd4pe_jobs', '1.5.0'
    git:    'https://github.com/atlgithub2308/amazonssmagent.git',
    branch: 'production'
 
- mod 'tomcat',
-   git:    'https://github.com/atlgithub2308/tomcat.git',
-   branch: 'production'
+ #mod 'tomcat',
+ #  git:    'https://github.com/atlgithub2308/tomcat.git',
+ #  branch: 'production'
 
  mod 'java',
    git:    'https://github.com/atlgithub2308/java.git',
