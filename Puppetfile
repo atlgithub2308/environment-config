@@ -46,13 +46,13 @@ forge 'https://forge.puppet.com'
    git:    'https://github.com/atlgithub2308/ntp.git',
    branch: 'production'
 
-# mod 'stdlib',
-#   git:    'https://github.com/atlgithub2308/stdlib.git',
-#   branch: 'production'
+ mod 'stdlib',
+   git:    'https://github.com/atlgithub2308/stdlib.git',
+   branch: 'production'
 
-# mod 'roles',
-#   git:    'https://github.com/atlgithub2308/roles.git',
-#   branch: 'production'
+ mod 'roles',
+   git:    'https://github.com/atlgithub2308/roles.git',
+   branch: 'production'
 
  mod 'profiles',
    git:    'https://github.com/atlgithub2308/profiles.git',
