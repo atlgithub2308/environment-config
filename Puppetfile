@@ -12,27 +12,19 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
-#mod CD4PE
-#mod 'saz-sudo', '7.0.2'
-#mod 'puppetlabs-powershell', '5.0.0'
-mod 'puppetlabs-docker', '4.1.2'
-mod 'puppetlabs-cd4pe', '3.2.1'
 #mod 'puppetlabs-stdlib', '7.1.0'
-mod 'puppetlabs-puppet_authorization', '0.5.1'
-mod 'puppetlabs-hocon', '1.1.0'
-mod 'puppetlabs-concat', '7.0.2'
-mod 'puppetlabs-apt', '8.2.0'
-mod 'puppetlabs-translate', '2.2.0'
-mod 'puppetlabs-cd4pe_jobs', '1.5.0'
 
+ mod 'puppetlabs-docker', '4.1.2'
+ mod 'puppetlabs-cd4pe', '3.2.1'
+ mod 'puppetlabs-puppet_authorization', '0.5.1'
+ mod 'puppetlabs-hocon', '1.1.0'
+ mod 'puppetlabs-concat', '7.0.2'
+ mod 'puppetlabs-apt', '8.2.0'
+ mod 'puppetlabs-translate', '2.2.0'
+ mod 'puppetlabs-cd4pe_jobs', '1.5.0'
  mod 'puppetlabs/inifile', '5.2.0'
-
  mod 'puppet-archive', '6.0.1'
-
- #mod 'shinesolutions-amazon_ssm_agent', '1.0.0'
-
  mod 'puppet/chrony', '2.0.0'
-
  mod 'simp-simplib', '4.10.1'
  mod 'herculesteam-augeasproviders_core', '3.1.0'
  mod 'herculesteam-augeasproviders_ssh', '4.0.0'
