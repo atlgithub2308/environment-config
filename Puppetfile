@@ -32,19 +32,19 @@ forge 'https://forge.puppet.com'
 
  mod 'amazonssmagent',
    git:    'https://github.com/atlgithub2308/amazonssmagent.git',
-   branch: 'production'
+#   branch: 'production'
 
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
-   branch: 'production'
+#   branch: 'production'
 
  mod 'java',
    git:    'https://github.com/atlgithub2308/java.git',
-   branch: 'production'
+#   branch: 'production'
 
  mod 'ntp',
    git:    'https://github.com/atlgithub2308/ntp.git',
-   branch: 'production'
+#   branch: 'production'
 
 # mod 'stdlib',
 #   git:    'https://github.com/atlgithub2308/stdlib.git',
@@ -56,20 +56,20 @@ forge 'https://forge.puppet.com'
 
  mod 'profiles',
    git:    'https://github.com/atlgithub2308/profiles.git',
-   branch: 'production'
+#   branch: 'production'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
-   branch: 'production',
+#   branch: 'production',
    install_path: 'hieradata'
  
  mod 'motd',
    git:    'https://github.com/atlgithub2308/motd.git',
-   branch: 'production'
+#   branch: 'production'
 
 mod 'puppet-autosign',
    git:    'https://github.com/atlgithub2308/puppet-autosign.git',
-   branch: 'production'
+#   branch: 'production'
 
 #mod 'winservice',
 #   git:    'https://github.com/atlgithub2308/winservice.git',
