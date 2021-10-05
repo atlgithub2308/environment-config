@@ -32,46 +32,46 @@ forge 'https://forge.puppet.com'
 
  mod 'amazonssmagent',
    git:    'https://github.com/atlgithub2308/amazonssmagent.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'java',
    git:    'https://github.com/atlgithub2308/java.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'ntp',
    git:    'https://github.com/atlgithub2308/ntp.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'stdlib',
    git:    'https://github.com/atlgithub2308/stdlib.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'roles',
    git:    'https://github.com/atlgithub2308/roles.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'profiles',
    git:    'https://github.com/atlgithub2308/profiles.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
-   branch: 'production',
+   branch: 'development',
    install_path: 'hieradata'
  
  mod 'motd',
    git:    'https://github.com/atlgithub2308/motd.git',
-   branch: 'production'
+   branch: 'development'
 
 mod 'puppet-autosign',
    git:    'https://github.com/atlgithub2308/puppet-autosign.git',
-   branch: 'production'
+   branch: 'development'
 
-mod 'winservice',
-   git:    'https://github.com/atlgithub2308/winservice.git',
-   branch: 'production'
+#mod 'winservice',
+#   git:    'https://github.com/atlgithub2308/winservice.git',
+#   branch: 'production'
 
