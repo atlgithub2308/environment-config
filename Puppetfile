@@ -71,7 +71,7 @@ mod 'puppet-autosign',
    git:    'https://github.com/atlgithub2308/puppet-autosign.git',
    branch: 'production'
 
-mod 'winservice',
-   git:    'https://github.com/atlgithub2308/winservice.git',
-   branch: 'production'
+#mod 'winservice',
+#   git:    'https://github.com/atlgithub2308/winservice.git',
+#   branch: 'production'
 
