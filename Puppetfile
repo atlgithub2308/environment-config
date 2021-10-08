@@ -50,13 +50,13 @@ forge 'https://forge.puppet.com'
    git:    'https://github.com/atlgithub2308/stdlib.git',
    branch: 'development'
 
- mod 'roles',
-   git:    'https://github.com/atlgithub2308/roles.git',
-   branch: 'development'
+ #mod 'roles',
+ #  git:    'https://github.com/atlgithub2308/roles.git',
+ #  branch: 'development'
 
- mod 'profiles',
-   git:    'https://github.com/atlgithub2308/profiles.git',
-   branch: 'development'
+ #mod 'profiles',
+ #  git:    'https://github.com/atlgithub2308/profiles.git',
+ #  branch: 'development'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
