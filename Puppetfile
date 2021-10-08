@@ -14,6 +14,17 @@ forge 'https://forge.puppet.com'
 
 #mod 'puppetlabs-stdlib', '7.1.0'
 
+ # Puppet comply module
+ mod 'puppetlabs-comply',           '2.1.0'
+
+ # dependencies for comply
+ #mod 'puppet/archive',              '5.0.0'
+ mod 'puppetlabs/chocolatey',       '6.0.1'
+ #mod 'puppetlabs/inifile',          '5.1.0'
+ #mod 'puppetlabs/java',             '7.1.0'
+ mod 'puppetlabs/ruby_task_helper', '0.6.0'
+ #mod 'puppetlabs/stdlib',           '7.1.0'
+
  mod 'puppetlabs-docker', '4.1.2'
  mod 'puppetlabs-cd4pe', '3.2.1'
  mod 'puppetlabs-puppet_authorization', '0.5.1'
@@ -50,13 +61,13 @@ forge 'https://forge.puppet.com'
    git:    'https://github.com/atlgithub2308/stdlib.git',
    branch: 'development'
 
- #mod 'roles',
- #  git:    'https://github.com/atlgithub2308/roles.git',
- #  branch: 'development'
+ mod 'roles',
+   git:    'https://github.com/atlgithub2308/roles.git',
+   branch: 'development'
 
- #mod 'profiles',
- #  git:    'https://github.com/atlgithub2308/profiles.git',
- #  branch: 'development'
+ mod 'profiles',
+   git:    'https://github.com/atlgithub2308/profiles.git',
+   branch: 'development'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
@@ -71,7 +82,7 @@ mod 'puppet-autosign',
    git:    'https://github.com/atlgithub2308/puppet-autosign.git',
    branch: 'development'
 
-#mod 'winservice',
-#   git:    'https://github.com/atlgithub2308/winservice.git',
-#   branch: 'production'
+mod 'winservice',
+   git:    'https://github.com/atlgithub2308/winservice.git',
+   branch: 'development'
 
