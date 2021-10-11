@@ -20,6 +20,8 @@ forge 'https://forge.puppet.com'
  # dependencies for comply
  #mod 'puppet/archive',              '5.0.0'
  mod 'puppetlabs/chocolatey',       '6.0.1'
+ mod 'puppetlabs-registry', '4.0.1'
+ mod 'puppetlabs-powershell', '5.0.0'
  #mod 'puppetlabs/inifile',          '5.1.0'
  mod 'puppetlabs/java',             '7.1.0'
  mod 'puppetlabs/ruby_task_helper', '0.6.0'
