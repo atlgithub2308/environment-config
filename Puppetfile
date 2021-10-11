@@ -21,7 +21,7 @@ forge 'https://forge.puppet.com'
  #mod 'puppet/archive',              '5.0.0'
  mod 'puppetlabs/chocolatey',       '6.0.1'
  #mod 'puppetlabs/inifile',          '5.1.0'
- #mod 'puppetlabs/java',             '7.1.0'
+ mod 'puppetlabs/java',             '7.1.0'
  mod 'puppetlabs/ruby_task_helper', '0.6.0'
  #mod 'puppetlabs/stdlib',           '7.1.0'
 
@@ -49,9 +49,9 @@ forge 'https://forge.puppet.com'
    git:    'https://github.com/atlgithub2308/tomcat.git',
    branch: 'development'
 
- mod 'java',
-   git:    'https://github.com/atlgithub2308/java.git',
-   branch: 'development'
+ #mod 'java',
+ #  git:    'https://github.com/atlgithub2308/java.git',
+ #  branch: 'development'
 
  mod 'ntp',
    git:    'https://github.com/atlgithub2308/ntp.git',
