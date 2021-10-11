@@ -29,6 +29,7 @@ node default {
   # Example:
   #   class { 'my_class': }
   # include java::install
+  include java
   notify { " Node ${fqdn} has no node definition": }
 }
 
