@@ -12,8 +12,6 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
-#mod 'puppetlabs-stdlib', '7.1.0'
-
 
  # Puppet comply module
  mod 'puppetlabs-comply',           '2.1.0'
@@ -21,7 +19,7 @@ forge 'https://forge.puppet.com'
  mod 'puppetlabs-cem_linux',        '1.0.0'
 
  # dependencies for comply
- #mod 'puppet/archive',              '5.0.0'
+
  mod 'puppetlabs/chocolatey',       '6.0.1'
  mod 'puppetlabs-registry', '4.0.1'
  mod 'puppetlabs-powershell', '5.0.0'
@@ -30,6 +28,7 @@ forge 'https://forge.puppet.com'
  mod 'puppetlabs/java',             '7.1.0'
  mod 'puppetlabs/ruby_task_helper', '0.6.0'
  mod 'puppetlabs/stdlib',           '6.6.0'
+ mod 'puppetlabs-puppet_agent', '4.9.0'
 
  mod 'puppetlabs-docker', '4.1.2'
  mod 'puppetlabs-cd4pe', '3.2.1'
@@ -39,7 +38,7 @@ forge 'https://forge.puppet.com'
  mod 'puppetlabs-apt', '8.2.0'
  mod 'puppetlabs-translate', '2.2.0'
  mod 'puppetlabs-cd4pe_jobs', '1.5.0'
- mod 'puppetlabs/inifile', '5.2.0'
+ mod 'puppetlabs/inifile', '4.4.0'
  mod 'puppet-archive', '6.0.1'
  mod 'puppet/chrony', '2.0.0'
  mod 'simp-simplib', '4.10.1'
