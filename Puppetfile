@@ -71,10 +71,10 @@ forge 'https://forge.puppet.com'
    branch: :control_branch,
    default_branch: 'production'
 
- #mod 'stdlib',
- #  git:    'https://github.com/atlgithub2308/stdlib.git',
- #  branch: :control_branch,
- #  default_branch: 'production'
+ # mod 'stdlib',
+ #   git:    'https://github.com/atlgithub2308/stdlib.git',
+ #   branch: :control_branch,
+ #   default_branch: 'production'
 
  mod 'roles',
    git:    'https://github.com/atlgithub2308/roles.git',
