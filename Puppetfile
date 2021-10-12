@@ -54,13 +54,11 @@ forge 'https://forge.puppet.com'
 
  mod 'amazonssmagent',
    git:    'https://github.com/atlgithub2308/amazonssmagent.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
  mod 'tomcat',
    git:    'https://github.com/atlgithub2308/tomcat.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
  #mod 'java',
  #  git:    'https://github.com/atlgithub2308/java.git',
@@ -68,8 +66,7 @@ forge 'https://forge.puppet.com'
 
  mod 'ntp',
    git:    'https://github.com/atlgithub2308/ntp.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
  #mod 'stdlib',
  #  git:    'https://github.com/atlgithub2308/stdlib.git',
@@ -78,31 +75,25 @@ forge 'https://forge.puppet.com'
 
  mod 'roles',
    git:    'https://github.com/atlgithub2308/roles.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
  mod 'profiles',
    git:    'https://github.com/atlgithub2308/profiles.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
-   branch: :control_branch,
-   default_branch: 'production',
+   branch: 'production',
    install_path: 'hieradata'
  
  mod 'motd',
    git:    'https://github.com/atlgithub2308/motd.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
 mod 'puppet-autosign',
    git:    'https://github.com/atlgithub2308/puppet-autosign.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
 
 mod 'winservice',
    git:    'https://github.com/atlgithub2308/winservice.git',
-   branch: :control_branch,
-   default_branch: 'production'
+   branch: 'production'
