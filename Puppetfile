@@ -14,7 +14,6 @@ forge 'https://forge.puppet.com'
 
 #mod 'puppetlabs-stdlib', '7.1.0'
 
- mod  'puppetlabs-cem_linux',       '1.0.0'
 
  # Puppet comply module
  mod 'puppetlabs-comply',           '2.1.0'
