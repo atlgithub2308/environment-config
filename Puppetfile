@@ -83,8 +83,8 @@ forge 'https://forge.puppet.com'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlgithub2308/hieradata-nodes.git',
-   install_path: 'hieradata',
-   branch: 'production'
+   branch: 'production',
+   install_path: 'hieradata'
  
  mod 'motd',
    git:    'https://github.com/atlgithub2308/motd.git',
