@@ -19,7 +19,6 @@ forge 'https://forge.puppet.com'
  mod 'puppetlabs-cem_linux',        '1.0.0'
 
  # dependencies for comply
-
  mod 'puppetlabs/chocolatey',       '6.0.1'
  mod 'puppetlabs-registry', '4.0.1'
  mod 'puppetlabs-powershell', '5.0.0'
