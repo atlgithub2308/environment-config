@@ -8,5 +8,5 @@ hierarchy:
   - name: "Yaml backend"
     data_hash: yaml_data
     paths:
-      - "/etc/puppetlabs/code/environments/production/hieradata/nodes/%{trusted.certname}.yaml"
+      - "/etc/puppetlabs/code/environments/production/modules/nodes/%{trusted.certname}.yaml"
       - "common.yaml"
