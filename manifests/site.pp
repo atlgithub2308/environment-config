@@ -35,6 +35,10 @@ node default {
 
 node 'pemaster.atldemo.com' {
 
+  user { ['sysad1']:
+    ensure => present,
+  }
+
   ini_setting { 'policy-based autosigning':
     setting => 'autosign',
     path    => '/etc/puppetlabs/puppet/puppet.conf',
