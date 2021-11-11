@@ -30,7 +30,11 @@ node default {
   # class { 'my_class': }
   # include java::install
   # include java
-  notify { " Node ${fqdn} has no node definition": }
+  #notify { " Node ${fqdn} has no node definition": }
+  
+  user { ['sysad1']:
+    ensure => present
+  }
 }
 
 node 'pemaster.atldemo.com' {
