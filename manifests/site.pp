@@ -74,6 +74,10 @@ node 'debian1.atldemo.net' {
   lookup('role').include
 }
 
+node 'dev-debian.atldemo.net' {
+  lookup('role').include
+}
+
 node 'windows1.atldemo.net' {
   include winservice
 }
