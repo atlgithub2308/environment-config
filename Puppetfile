@@ -13,10 +13,10 @@ forge 'https://forge.puppet.com'
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
 
- mod 'puppetlabs-relay', '2.2.0'
+ #mod 'puppetlabs-relay', '2.2.0'
 
  # Puppet comply module
- mod 'puppetlabs-comply',           '2.1.0'
+ #mod 'puppetlabs-comply',           '2.1.0'
 
  #mod 'puppetlabs-cem_linux',        '1.0.0'
 
