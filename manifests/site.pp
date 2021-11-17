@@ -68,7 +68,15 @@ node 'primary.atldemo.net' {
 
 node 'redhat1.atldemo.net' {
   lookup('role').include
-  include mongodb::server
+# include mongodb::server
+
+  class {'mongodb::globals':
+  manage_package_repo => true,
+  version             => '3.5',
+}
+-> class {'mongodb::client': }
+-> class {'mongodb::server': }
+
 }
 
 node 'debian1.atldemo.net' {
