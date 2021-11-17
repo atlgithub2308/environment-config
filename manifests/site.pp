@@ -68,6 +68,7 @@ node 'primary.atldemo.net' {
 
 node 'redhat1.atldemo.net' {
   lookup('role').include
+  include mongodb::server
 }
 
 node 'debian1.atldemo.net' {
