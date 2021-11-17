@@ -108,4 +108,3 @@ mod 'winservice',
    default_branch: 'production'
 
 mod 'puppet-mongodb', '4.1.0'
-mod 'puppet-systemd', '3.5.1'
