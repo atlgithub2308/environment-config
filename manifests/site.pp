@@ -73,7 +73,7 @@ node 'redhat1.atldemo.net' {
 
   class {'mongodb::globals':
     #manage_package_repo => true,
-    version             => '3.3',
+    version             => '5.0',
   }
   -> class {'mongodb::server': }
 
